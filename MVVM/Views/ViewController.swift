@@ -14,6 +14,7 @@ final class ViewController: UIViewController {
     
     //MARK: - Properties
     
+    
     var viewModel: ViewModelType
     var disposeBag = DisposeBag()
     
@@ -25,7 +26,6 @@ final class ViewController: UIViewController {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
     
     //MARK: - UI components
     lazy var label: UILabel = {
